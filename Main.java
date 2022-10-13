@@ -14,7 +14,7 @@ class Main {
 
     int input;
 
-    loop:while(true){
+    people:while(true){
       System.out.println("Press 1 to learn about salary.");
       System.out.println("Press 2 to learn about the job.");
       System.out.println("Press 3 to learn about demand.");
@@ -47,7 +47,7 @@ class Main {
           break;
 
         default:
-          break loop;
+          break people;
       }
       
     }
